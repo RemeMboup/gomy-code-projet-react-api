@@ -39,39 +39,6 @@ const AddUser = () => {
   };
 
   return (
-    // <div>
-    //   <h1>Add User</h1>
-    //   <form onSubmit={handleSubmit}>
-    //     <label htmlFor="name">
-    //       Name
-    //       <input
-    //         type="text"
-    //         name="name"
-    //         value={data.name}
-    //         onChange={handleChange}
-    //       />
-    //     </label>
-    //     <label htmlFor="username">
-    //       Username
-    //       <input
-    //         type="text"
-    //         name="username"
-    //         value={data.username}
-    //         onChange={handleChange}
-    //       />
-    //     </label>
-    //     <label htmlFor="email">
-    //       Email
-    //       <input
-    //         type="email"
-    //         name="email"
-    //         value={data.email}
-    //         onChange={handleChange}
-    //       />
-    //     </label>
-    //     <button type="submit">Save</button>
-    //   </form>
-    // </div>
     <Form  onSubmit={handleSubmit}>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom01">
